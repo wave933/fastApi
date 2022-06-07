@@ -18,7 +18,7 @@ def index():
 #    Located at: http://127.0.0.1:8000/AnyNameHere
 @app.get('/Welcome')
 def get_name(name: str):
-    return {'Welcome To Krish Youtube Channel': f'{name}'}
+    return {'Welcome ': f'{name}'}
 
 
 
